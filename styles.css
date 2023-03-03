@@ -1,0 +1,95 @@
+html * {
+  background-color: hsl(0, 0%, 95%);
+}
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 6.25em auto;
+}
+.first,
+.second,
+.third {
+  width: 25%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  box-sizing: border-box;
+  font-family: "Big Shoulders Display", cursive;
+  padding: 3.8em;
+}
+.first {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 0.625em;
+  border-bottom-left-radius: 0.625em;
+}
+.second {
+  background-color: hsl(184, 100%, 22%);
+}
+.third {
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 0.625em;
+  border-bottom-right-radius: 0.625em;
+}
+
+p {
+  font-family: "Lexend Deca", sans-serif;
+  color: hsl(0, 0%, 100%, 0.75);
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 0.9375em;
+}
+h1 {
+  color: hsl(0, 0%, 95%);
+  font-weight: 700;
+}
+
+.button {
+  border-radius: 1.75em;
+  display: inline-block;
+  cursor: pointer;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.9375em;
+  padding: 0.8125em 1.875em;
+  text-decoration: none;
+  margin-top: 3.125em;
+}
+
+.button:active {
+  position: relative;
+  top: 1px;
+}
+
+.first .button {
+  background-color: hsl(0, 0%, 95%);
+  border: 1px solid hsl(31, 77%, 52%);
+  color: hsl(31, 77%, 52%);
+}
+.first .button:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+  border-color: hsl(0, 0%, 95%);
+}
+
+.second .button {
+  border: 1px solid hsl(184, 100%, 22%);
+  color: hsl(184, 100%, 22%);
+}
+.second .button:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+  border-color: hsl(0, 0%, 95%);
+}
+
+.third .button {
+  border: 1px solid hsl(179, 100%, 13%);
+  color: hsl(179, 100%, 13%);
+}
+.third .button:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+  border-color: hsl(0, 0%, 95%);
+}
